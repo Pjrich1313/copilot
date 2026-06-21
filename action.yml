@@ -15,6 +15,7 @@ runs:
       run: |
          docker build ${{ inputs.docker-build-args }} -t ${{ inputs.docker-image-name }} .
       shell: bash
+      timeout-minutes: 15
     -
       name: Get Date
       id: get-date
@@ -41,5 +42,7 @@ runs:
       name: Fix trivy cache folder permission
       if: always()
       run: |
-        sudo chown -R $DOCKER_USER trivy
+        if [ -d trivy ]; then
+          sudo chown -R "$(id -u):$(id -g)" trivy
+        fi
       shell: bash
