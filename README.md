@@ -2,6 +2,6 @@
 
 ## License
 
-This repository includes a copy of [numerique-gouv/action-trivy-cache](https://github.com/numerique-gouv/action-trivy-cache). `action.yml` and the MIT license text in [LICENSE](LICENSE) remain under the MIT License, Copyright (c) 2024 numerique-gouv.
+`action.yml` and [LICENSE](LICENSE) are copied from [numerique-gouv/action-trivy-cache](https://github.com/numerique-gouv/action-trivy-cache) and stay under the MIT License, Copyright (c) 2024 numerique-gouv.
 
-Original additions by Pamela Richardson are licensed under either of the Apache License, Version 2.0 or the MIT license, at your option. Copyright (c) 2026 Pamela Richardson.
+Pamela Richardson's own additions only are all rights reserved. No permission is granted to use, copy, modify, merge, publish, distribute, sublicense, or sell those additions without a written license agreement signed by Pamela Richardson that states the agreed price and terms. Unless a different price is agreed in writing, the license fee is ten percent (10%) of all revenue earned from use of those additions. To request a license, contact Pamela Richardson through GitHub (Pjrich1313).
